@@ -23,6 +23,8 @@
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
+
+  --transition: all 400ms ease;
 }
 
 html {
@@ -41,4 +43,77 @@ body {
   color: var(--colour-white);
   line-height: 1.7;
   background-image: url(../src/assets/bg-texture.png);
+}
+
+/* ==================== General ==================== */
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto; /* Centres horizontally */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+section {
+  margin-top: 8rem;
+}
+
+section > h2,
+section > h5 {
+  text-align: center;
+  color: var(--colour-light);
+}
+
+section > h2 {
+  color: var(--colour-primary);
+  margin-bottom: 3rem;
+}
+
+.text-light {
+  color: var(--colour-light);
+}
+
+a {
+  color: var(--transition);
+}
+
+a:hover {
+  color: var(--colour-white);
+}
+
+.btn {
+  width: max-content; /* Matches width of content */
+  display: inline-block;
+  color: var(--colour-primary);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--colour-primary);
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background-color: var(--colour-white);
+  color: var(--colour-bg);
+  border-color: transparent;
+}
+
+.btn-primary {
+  background-color: var(--colour-primary);
+  color: var(--colour-bg);
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
 }

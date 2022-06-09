@@ -9,6 +9,7 @@
 }
 
 :root {
+  /* -- A bluish colour template... may change primary to orange later */
   --colour-bg: #1f1f38;
   --colour-bg-variant: #2c2c6c;
   --colour-primary: #4db5ff;
@@ -20,4 +21,14 @@
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
+}
+
+html {
+  /* I used in a project earlier and I really liked how it looked */
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  /* I generally dont like scroll bars and tend to remove them if possible */
+  display: none;
 }

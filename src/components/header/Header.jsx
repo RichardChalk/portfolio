@@ -11,7 +11,9 @@ const Header = () => {
         <h5>Hello I'm</h5>
         <h1>Richard</h1>
         <h5 className="text-light">.NET Fullstack Developer</h5>
+
         <CTA />
+        <HeaderSocials />
 
         <div className="me">
           <img src={ME} alt="Portrait of Richard Chalk" />
@@ -20,8 +22,6 @@ const Header = () => {
         <a href="#contact" className="scroll__down">
           Scroll Down
         </a>
-
-        <HeaderSocials />
       </div>
     </header>
   );

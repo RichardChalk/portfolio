@@ -83,7 +83,8 @@ section > h2 {
 }
 
 a {
-  color: var(--transition);
+  color: var(--colour-primary);
+  transition: var(--transition);
 }
 
 a:hover {

@@ -1,6 +1,7 @@
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
-import { BsGithub } from "react-icons/bs";
+import { BsFacebook } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
 
 const HeaderSocials = () => {
   return (
@@ -9,7 +10,10 @@ const HeaderSocials = () => {
         <BsLinkedin />
       </a>
       <a href="https://github.com" target="_blank">
-        <BsGithub />
+        <FaGithub />
+      </a>
+      <a href="https://facebook.com" target="_blank">
+        <BsFacebook />
       </a>
     </div>
   );

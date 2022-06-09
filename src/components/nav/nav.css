@@ -28,6 +28,7 @@ nav a:hover {
 }
 
 nav a.active {
-  background: var(--colour-bg);
+  background: var(--colour-primary);
+  opacity: 0.9;
   color: var(--colour-white);
 }

@@ -21,7 +21,7 @@
   --colour-light: rgba(255, 255, 255, 0.6);
 
   /* -- A orange colour template...*/
-  /* --colour-primary: #eead17; */
+  --colour-primary: #eead17;
 
   /* Used for media queries */
   --container-width-lg: 75%;

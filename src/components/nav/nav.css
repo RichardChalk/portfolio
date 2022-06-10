@@ -42,7 +42,7 @@ nav a.active {
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 120px;
+  width: 6rem;
   background-color: var(--colour-white);
   color: #000;
   text-align: center;
@@ -69,5 +69,45 @@ nav a.active {
 }
 
 .tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* Tooltips SOCIAL =============================  */
+
+.tooltip-social {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-social .tooltiptext-social {
+  visibility: hidden;
+  width: 6rem;
+  background-color: var(--colour-white);
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 110%;
+  margin-left: 10px;
+  font-size: 0.8rem;
+}
+
+/* Add the little arrow */
+.tooltip-social .tooltiptext-social::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: var(--colour-white) transparent transparent transparent;
+  transform: rotate(90deg);
+}
+
+.tooltip-social:hover .tooltiptext-social {
   visibility: visible;
 }

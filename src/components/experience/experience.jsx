@@ -3,6 +3,9 @@ import "./experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
 import HTMLLogo from "../../assets/HTML5_Badge.png";
 import CSSLogo from "../../assets/CSS3_Badge.png";
+import JSLogo from "../../assets/JS_Badge.png";
+import BSLogo from "../../assets/BS_Badge.png";
+import ReactLogo from "../../assets/React_Badge.png";
 
 const Experience = () => {
   return (
@@ -25,17 +28,17 @@ const Experience = () => {
               <small className="text-light">Experienced</small>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill />
+              <img src={JSLogo}></img>
               <h4>Javascript</h4>
-              <small className="text-light">Intermediate</small>
+              <small className="text-light">Experienced</small>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill />
+              <img src={BSLogo}></img>
               <h4>Bootstrap</h4>
-              <small className="text-light">Intermediate</small>
+              <small className="text-light">Experienced</small>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill />
+              <img src={ReactLogo}></img>
               <h4>React</h4>
               <small className="text-light">Intermediate</small>
             </article>

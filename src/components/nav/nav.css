@@ -53,6 +53,7 @@ nav a.active {
   bottom: 150%;
   left: 50%;
   margin-left: -60px;
+  font-size: 0.8rem;
 }
 
 /* Add the little arrow */

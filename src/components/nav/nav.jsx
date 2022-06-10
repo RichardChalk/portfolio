@@ -17,35 +17,50 @@ const Nav = () => {
         onClick={() => setActiveNav("#")}
         className={activeNav === "#" ? "active" : ""}
       >
-        <AiOutlineHome />
+        <div className="tooltip">
+          <AiOutlineHome />
+          <span className="tooltiptext">Home</span>
+        </div>
       </a>
       <a
         href="#about"
         onClick={() => setActiveNav("#about")}
         className={activeNav === "#about" ? "active" : ""}
       >
-        <AiOutlineUser />
+        <div className="tooltip">
+          <AiOutlineUser />
+          <span className="tooltiptext">About Me</span>
+        </div>
       </a>
       <a
         href="#experience"
         onClick={() => setActiveNav("#experience")}
         className={activeNav === "#experience" ? "active" : ""}
       >
-        <FiBookOpen />
+        <div className="tooltip">
+          <FiBookOpen />
+          <span className="tooltiptext">Experience</span>
+        </div>
       </a>
       <a
         href="#services"
         onClick={() => setActiveNav("#services")}
         className={activeNav === "#services" ? "active" : ""}
       >
-        <RiServiceLine />
+        <div className="tooltip">
+          <RiServiceLine />
+          <span className="tooltiptext">Services</span>
+        </div>
       </a>
       <a
         href="#contact"
         onClick={() => setActiveNav("#contact")}
         className={activeNav === "#contact" ? "active" : ""}
       >
-        <BiMessage />
+        <div className="tooltip">
+          <BiMessage />
+          <span className="tooltiptext">Contact</span>
+        </div>
       </a>
     </nav>
   );

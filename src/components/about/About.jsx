@@ -39,7 +39,9 @@ const About = () => {
 
           <p>
             I migrated from England 1997 and I am currently living in Vällingby
-            with my wife and 3 children.
+            with my wife and 3 children. Interested in tech. Love design.
+            Studied .NET Fullstack Developer for 2 years at at SKYS
+            Yrkeshögskola. Currently full-time employed at Sweet Systems CRM.
           </p>
 
           <a href="#contact" className="btn btn-primary">

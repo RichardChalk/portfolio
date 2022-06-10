@@ -42,27 +42,28 @@ header {
 
 /* Image ====================================== */
 .me {
-  /* background: var(--colour-primary); */
-  background: linear-gradient(var(--colour-primary-header-image), transparent);
+  background: linear-gradient(
+    transparent,
+    var(--colour-primary-header-image),
+    transparent
+  );
   width: 22rem;
   height: 30rem;
   position: absolute;
   left: calc(50% - 11rem);
-  /* left: 50%;
-  transform: translateX(-50%); */
   margin-top: 4rem;
-  border-radius: 12rem 12rem 0 0;
+  /* border-radius: 2rem 2rem 0 0; */
   overflow: hidden;
   padding: 5rem 1.5rem 1.5rem 1.5rem;
   /* Needed for my own image? */
-  /* padding: 5rem 0 0 0; */
+  padding: 5rem 0 0 0;
 }
 
 /* Needed for my own image? */
-/* .me > img {
+.me > img {
   width: 24rem;
   height: 24rem;
-} */
+}
 
 /* Scroll Down text ====================================== */
 .scroll__down {

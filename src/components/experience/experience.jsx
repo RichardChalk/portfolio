@@ -6,6 +6,11 @@ import CSSLogo from "../../assets/CSS3_Badge.png";
 import JSLogo from "../../assets/JS_Badge.png";
 import BSLogo from "../../assets/BS_Badge.png";
 import ReactLogo from "../../assets/React_Badge.png";
+import CLogo from "../../assets/C_Badge.png";
+import SQLLogo from "../../assets/sql_Badge.png";
+import ASPLogo from "../../assets/asp_Badge.png";
+import ENTITYLogo from "../../assets/Entity_Badge.jpg";
+import MVCLogo from "../../assets/MVC_Badge.jpg";
 
 const Experience = () => {
   return (
@@ -14,6 +19,7 @@ const Experience = () => {
       <h2>My Experience</h2>
 
       <div className="container experience__container">
+        {/* FRONTEND =========================================== */}
         <div className="experience__frontend">
           <h3>Frontend Development</h3>
           <div className="experience__content">
@@ -45,7 +51,37 @@ const Experience = () => {
           </div>
         </div>
 
-        <div className="experience__backend"></div>
+        {/* BACKEND =========================================== */}
+        <div className="experience__backend">
+          <h3>Backend Development</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <img src={CLogo}></img>
+              <h4>C#</h4>
+              <small className="text-light">Experienced</small>
+            </article>
+            <article className="experience__details">
+              <img src={SQLLogo}></img>
+              <h4>SQL Server</h4>
+              <small className="text-light">Intermediate</small>
+            </article>
+            <article className="experience__details">
+              <img src={ASPLogo}></img>
+              <h4>MVC</h4>
+              <small className="text-light">Experienced</small>
+            </article>
+            <article className="experience__details">
+              <img src={ASPLogo}></img>
+              <h4>Razor Pages</h4>
+              <small className="text-light">Experienced</small>
+            </article>
+            <article className="experience__details">
+              <img src={ASPLogo}></img>
+              <h4>Entity Framework</h4>
+              <small className="text-light">Experienced</small>
+            </article>
+          </div>
+        </div>
       </div>
     </section>
   );

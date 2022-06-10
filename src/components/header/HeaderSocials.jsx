@@ -12,7 +12,7 @@ const HeaderSocials = () => {
           target="_blank"
         >
           <BsLinkedin />
-          <span className="tooltiptext-social">Facebook</span>
+          <span className="tooltiptext-social">Linkedin</span>
         </a>
       </div>
       <div class="tooltip-social">

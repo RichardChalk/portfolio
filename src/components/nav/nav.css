@@ -41,7 +41,8 @@ nav a.active {
 }
 
 .tooltip .tooltiptext {
-  visibility: hidden;
+  /* visibility: hidden; */
+  opacity: 0;
   width: 6rem;
   background-color: var(--colour-white);
   color: #000;
@@ -54,6 +55,7 @@ nav a.active {
   left: 50%;
   margin-left: -60px;
   font-size: 0.8rem;
+  transition: opacity 0.6s ease-in-out;
 }
 
 /* Add the little arrow */
@@ -69,7 +71,8 @@ nav a.active {
 }
 
 .tooltip:hover .tooltiptext {
-  visibility: visible;
+  /* visibility: visible; */
+  opacity: 1;
 }
 
 /* Tooltips SOCIAL =============================  */
@@ -80,7 +83,7 @@ nav a.active {
 }
 
 .tooltip-social .tooltiptext-social {
-  visibility: hidden;
+  opacity: 0;
   width: 6rem;
   background-color: var(--colour-white);
   color: #000;
@@ -93,6 +96,7 @@ nav a.active {
   left: 110%;
   margin-left: 10px;
   font-size: 0.8rem;
+  transition: opacity 0.6s ease-in-out;
 }
 
 /* Add the little arrow */
@@ -109,5 +113,5 @@ nav a.active {
 }
 
 .tooltip-social:hover .tooltiptext-social {
-  visibility: visible;
+  opacity: 1;
 }

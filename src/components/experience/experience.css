@@ -2,13 +2,6 @@
   padding: 7rem;
 }
 
-.experience__container img {
-  width: 3rem;
-  height: 3rem;
-  object-fit: contain;
-  border-radius: 0.1rem;
-}
-
 .experience__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -18,7 +11,7 @@
 /* Grabs the 2 divs (Frontend & Backend) */
 .experience__container > div {
   background: var(--colour-bg-variant);
-  padding: 2.5rem 5rem;
+  padding: 2.4rem 5rem;
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
@@ -46,6 +39,14 @@
   display: flex;
   gap: 1rem;
 }
+
+.experience__details-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: contain;
+  border-radius: 0.1rem;
+}
+
 /* =============== Media queries ===============  */
 
 /* Medium devices */

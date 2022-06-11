@@ -1,5 +1,5 @@
 #experience {
-  margin-top: 7rem;
+  padding: 7rem;
 }
 
 .experience__container img {
@@ -55,7 +55,8 @@
   }
 
   .experience__container div {
-    width: 80%;
+    /* width: 80%; */
+    width: 100%;
     padding: 2rem;
     margin: 0 auto;
   }

@@ -27,11 +27,53 @@
   background: var(--colour-primary);
   padding: 2rem;
   border-radius: 0 0 2rem 2rem;
-  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.4);
 }
 
 .service__head h3 {
   color: var(--colour-bg);
   /* font-size: 1.5rem; */
   text-align: center;
+}
+
+.service__list {
+  padding: 2rem;
+}
+
+.service__list li {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.service__list-icon {
+  color: var(--colour-primary);
+  /* margin-top: 2px; */
+  margin-top: 0.3rem;
+}
+
+.service__list p {
+  font-size: 0.9rem;
+}
+
+/* =============== Media queries ===============  */
+
+/* Medium devices */
+@media screen and (max-width: 1024px) {
+  .services__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .service {
+    height: auto;
+  }
+}
+
+/* Small devices */
+@media screen and (max-width: 600px) {
+  .services__container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 }

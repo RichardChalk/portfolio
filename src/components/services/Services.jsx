@@ -1,6 +1,6 @@
 import React from "react";
 import "./services.css";
-import { AiOutlineCheckCircle } from "react-icons/ai";
+import { RiCheckboxBlankCircleFill } from "react-icons/ri";
 
 const Services = () => {
   return (
@@ -16,15 +16,15 @@ const Services = () => {
           </div>
           <ul className="service__list">
             <li>
-              <AiOutlineCheckCircle className="service__list-icon" />
+              <RiCheckboxBlankCircleFill className="service__list-icon" />
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <AiOutlineCheckCircle className="service__list-icon" />
+              <RiCheckboxBlankCircleFill className="service__list-icon" />
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <AiOutlineCheckCircle className="service__list-icon" />
+              <RiCheckboxBlankCircleFill className="service__list-icon" />
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
           </ul>
@@ -38,15 +38,15 @@ const Services = () => {
 
           <ul className="service__list">
             <li>
-              <AiOutlineCheckCircle className="service__list-icon" />
+              <RiCheckboxBlankCircleFill className="service__list-icon" />
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <AiOutlineCheckCircle className="service__list-icon" />
+              <RiCheckboxBlankCircleFill className="service__list-icon" />
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <AiOutlineCheckCircle className="service__list-icon" />
+              <RiCheckboxBlankCircleFill className="service__list-icon" />
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
           </ul>
@@ -55,19 +55,19 @@ const Services = () => {
         {/* Card 3 - Content creation */}
         <article className="service">
           <div className="service__head">
-            <h3>Content creation</h3>
+            <h3>Backend</h3>
           </div>
           <ul className="service__list">
             <li>
-              <AiOutlineCheckCircle className="service__list-icon" />
+              <RiCheckboxBlankCircleFill className="service__list-icon" />
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <AiOutlineCheckCircle className="service__list-icon" />
+              <RiCheckboxBlankCircleFill className="service__list-icon" />
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <AiOutlineCheckCircle className="service__list-icon" />
+              <RiCheckboxBlankCircleFill className="service__list-icon" />
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
           </ul>

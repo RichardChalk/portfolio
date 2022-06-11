@@ -1,0 +1,37 @@
+/* #experience {
+  padding: 7rem;
+}
+*/
+
+.services__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.service {
+  background: var(--colour-bg-variant);
+  border-radius: 0 0 2rem 2rem;
+  border: 1px solid transparent;
+  height: fit-content;
+  transition: var(--transition);
+}
+
+.service:hover {
+  background: transparent;
+  border-color: var(--colour-primary);
+  cursor: default;
+}
+
+.service__head {
+  background: var(--colour-primary);
+  padding: 2rem;
+  border-radius: 0 0 2rem 2rem;
+  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.4);
+}
+
+.service__head h3 {
+  color: var(--colour-bg);
+  /* font-size: 1.5rem; */
+  text-align: center;
+}

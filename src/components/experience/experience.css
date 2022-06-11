@@ -1,7 +1,7 @@
-#experience {
+/* #experience {
   padding: 7rem;
 }
-
+ */
 .experience__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -10,6 +10,7 @@
 
 /* Grabs the 2 divs (Frontend & Backend) */
 .experience__container > div {
+  width: 100%;
   background: var(--colour-bg-variant);
   padding: 2.4rem 5rem;
   border-radius: 2rem;
@@ -58,7 +59,7 @@
   .experience__container div {
     /* width: 80%; */
     width: 100%;
-    padding: 2rem;
+    padding: 1rem;
     margin: 0 auto;
   }
 
@@ -67,7 +68,7 @@
   }
 
   .experience__container img {
-    margin: auto;
+    margin: auto 0;
   }
 }
 

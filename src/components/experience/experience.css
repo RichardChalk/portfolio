@@ -1,3 +1,7 @@
+#experience {
+  margin-top: 7rem;
+}
+
 .experience__container img {
   width: 3rem;
   height: 3rem;
@@ -41,4 +45,38 @@
 .experience__details {
   display: flex;
   gap: 1rem;
+}
+/* =============== Media queries ===============  */
+
+/* Medium devices */
+@media screen and (max-width: 1024px) {
+  .experience__container {
+    grid-template-columns: 1fr;
+  }
+
+  .experience__container div {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+
+  .experience__content {
+    padding: 1rem;
+  }
+
+  .experience__container img {
+    margin: auto;
+  }
+}
+
+/* Small devices */
+@media screen and (max-width: 600px) {
+  .experience__container {
+    gap: 1rem;
+  }
+
+  .experience__container > div {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
 }

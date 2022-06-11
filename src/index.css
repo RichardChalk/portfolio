@@ -69,7 +69,8 @@ h1 {
 
 section {
   margin-top: 8rem;
-  height: 100vh;
+  /* Not sure if I need this or not... */
+  /* height: 100vh; */
 }
 
 section > h2,

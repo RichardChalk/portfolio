@@ -59,6 +59,13 @@ const Experience = () => {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
+            <article className="experience__details">
+              <img src={ReactLogo}></img>
+              <div>
+                <h4>EMPTY</h4>
+                <small className="text-light">EMPTY</small>
+              </div>
+            </article>
           </div>
         </div>
 
@@ -99,6 +106,13 @@ const Experience = () => {
               <div>
                 <h4>Entity Framework</h4>
                 <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <img src={NETLogo}></img>
+              <div>
+                <h4>EMPTY</h4>
+                <small className="text-light">EMPTY</small>
               </div>
             </article>
           </div>

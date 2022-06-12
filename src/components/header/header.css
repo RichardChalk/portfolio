@@ -116,16 +116,16 @@ header {
 
 /* Medium devices */
 @media screen and (max-width: 1024px) {
-  header {
+  /* header {
     height: 68vh;
-  }
+  } */
 }
 
 /* Small devices */
 @media screen and (max-width: 600px) {
-  header {
+  /* header {
     height: 100vh;
-  }
+  } */
 
   .header__socials,
   .scroll__down {

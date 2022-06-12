@@ -3,7 +3,8 @@ import "./nav.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { FiBookOpen } from "react-icons/fi";
-import { RiServiceLine } from "react-icons/ri";
+import { AiOutlineFundProjectionScreen } from "react-icons/ai";
+import { GrProjects } from "react-icons/gr";
 import { BiMessage } from "react-icons/bi";
 import { useState } from "react";
 
@@ -44,12 +45,12 @@ const Nav = () => {
       </div>
       <div className="tooltip">
         <a
-          href="#services"
-          onClick={() => setActiveNav("#services")}
-          className={activeNav === "#services" ? "active" : ""}
+          href="#portfolio"
+          onClick={() => setActiveNav("#portfolio")}
+          className={activeNav === "#portfolio" ? "active" : ""}
         >
-          <RiServiceLine />
-          <span className="tooltiptext">Services</span>
+          <AiOutlineFundProjectionScreen />
+          <span className="tooltiptext">Portfolio</span>
         </a>
       </div>
       <div className="tooltip">

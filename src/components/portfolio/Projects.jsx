@@ -19,6 +19,8 @@ import IMG4 from "../../assets/portfolio4.jpg";
 import IMG5 from "../../assets/portfolio5.png";
 import IMG6 from "../../assets/portfolio6.jpg";
 
+import { FaGithub } from "react-icons/fa";
+
 // TODO Update Item titles
 // TODO Update Github links
 // TODO Update Live demo links
@@ -89,6 +91,7 @@ const Projects = () => {
             <h3>{title}</h3>
             <div className="portfolio__item-cta">
               <a href={github} target="_blank" className="btn">
+                <FaGithub className="portfolio-git" />
                 Github
               </a>
               <a href={demo} target="_blank" className="btn btn-primary">

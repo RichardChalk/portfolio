@@ -7,6 +7,18 @@ import IMG4 from "../../assets/portfolio4.jpg";
 import IMG5 from "../../assets/portfolio5.png";
 import IMG6 from "../../assets/portfolio6.jpg";
 
+import HTMLLogo from "../../assets/HTML5_Badge.png";
+import CSSLogo from "../../assets/CSS3_Badge.png";
+import JSLogo from "../../assets/JS_Badge.png";
+import BSLogo from "../../assets/BS_Badge.png";
+import ReactLogo from "../../assets/React_Badge.png";
+import CLogo from "../../assets/C_Badge.png";
+import SQLLogo from "../../assets/sql_Badge.png";
+import ASPLogo from "../../assets/asp_Badge.png";
+import NETLogo from "../../assets/NET_Badge.png";
+import ENTITYLogo from "../../assets/Entity_Badge.jpg";
+import MVCLogo from "../../assets/MVC_Badge.jpg";
+
 // TODO Update Item titles
 // TODO Update Github links
 // TODO Update Live demo links
@@ -21,6 +33,7 @@ const Portfolio = () => {
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG1} alt="Project 1" />
+            <img src={HTMLLogo} className="portfolio__item-tool"></img>
           </div>
           <h3>Portfolio item title</h3>
           <div className="portfolio__item-cta">
@@ -40,6 +53,7 @@ const Portfolio = () => {
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG1} alt="Project 1" />
+            <img src={HTMLLogo} className="portfolio__item-tool"></img>
           </div>
           <h3>Portfolio item title</h3>
           <div className="portfolio__item-cta">
@@ -59,6 +73,7 @@ const Portfolio = () => {
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG1} alt="Project 1" />
+            <img src={HTMLLogo} className="portfolio__item-tool"></img>
           </div>
           <h3>Portfolio item title</h3>
           <div className="portfolio__item-cta">
@@ -78,6 +93,7 @@ const Portfolio = () => {
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG1} alt="Project 1" />
+            <img src={HTMLLogo} className="portfolio__item-tool"></img>
           </div>
           <h3>Portfolio item title</h3>
           <div className="portfolio__item-cta">
@@ -97,6 +113,7 @@ const Portfolio = () => {
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG1} alt="Project 1" />
+            <img src={HTMLLogo} className="portfolio__item-tool"></img>
           </div>
           <h3>Portfolio item title</h3>
           <div className="portfolio__item-cta">
@@ -116,6 +133,7 @@ const Portfolio = () => {
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG1} alt="Project 1" />
+            <img src={HTMLLogo} className="portfolio__item-tool"></img>
           </div>
           <h3>Portfolio item title</h3>
           <div className="portfolio__item-cta">

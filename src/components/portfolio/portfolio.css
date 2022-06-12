@@ -21,6 +21,14 @@
 .portfolio__item-image {
   border-radius: 1.5rem;
   overflow: hidden;
+  position: relative;
+}
+
+.portfolio__item-tool {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  width: 4rem;
 }
 
 .portfolio__item h3 {

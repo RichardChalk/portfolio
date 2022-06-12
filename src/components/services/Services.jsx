@@ -7,7 +7,7 @@ const Services = () => {
     <section id="services">
       <h5>What I offer</h5>
       <h2>Services</h2>
-
+      {/* TODO Update services text & headers */}
       <div className="container services__container">
         {/* Card 1 - UI/UX */}
         <article className="service">

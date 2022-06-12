@@ -23,16 +23,18 @@ const Portfolio = () => {
             <img src={IMG1} alt="Project 1" />
           </div>
           <h3>Portfolio item title</h3>
-          <a href="https://github.com" target="_blank" className="btn">
-            Github
-          </a>
-          <a
-            href="https://google.com"
-            target="_blank"
-            className="btn btn-primary"
-          >
-            Live Demo
-          </a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com" target="_blank" className="btn">
+              Github
+            </a>
+            <a
+              href="https://google.com"
+              target="_blank"
+              className="btn btn-primary"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
         {/* Project #1 ======================================== */}
         <article className="portfolio__item">
@@ -40,16 +42,18 @@ const Portfolio = () => {
             <img src={IMG1} alt="Project 1" />
           </div>
           <h3>Portfolio item title</h3>
-          <a href="https://github.com" target="_blank" className="btn">
-            Github
-          </a>
-          <a
-            href="https://google.com"
-            target="_blank"
-            className="btn btn-primary"
-          >
-            Live Demo
-          </a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com" target="_blank" className="btn">
+              Github
+            </a>
+            <a
+              href="https://google.com"
+              target="_blank"
+              className="btn btn-primary"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
         {/* Project #1 ======================================== */}
         <article className="portfolio__item">
@@ -57,16 +61,18 @@ const Portfolio = () => {
             <img src={IMG1} alt="Project 1" />
           </div>
           <h3>Portfolio item title</h3>
-          <a href="https://github.com" target="_blank" className="btn">
-            Github
-          </a>
-          <a
-            href="https://google.com"
-            target="_blank"
-            className="btn btn-primary"
-          >
-            Live Demo
-          </a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com" target="_blank" className="btn">
+              Github
+            </a>
+            <a
+              href="https://google.com"
+              target="_blank"
+              className="btn btn-primary"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
         {/* Project #1 ======================================== */}
         <article className="portfolio__item">
@@ -74,16 +80,18 @@ const Portfolio = () => {
             <img src={IMG1} alt="Project 1" />
           </div>
           <h3>Portfolio item title</h3>
-          <a href="https://github.com" target="_blank" className="btn">
-            Github
-          </a>
-          <a
-            href="https://google.com"
-            target="_blank"
-            className="btn btn-primary"
-          >
-            Live Demo
-          </a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com" target="_blank" className="btn">
+              Github
+            </a>
+            <a
+              href="https://google.com"
+              target="_blank"
+              className="btn btn-primary"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
         {/* Project #1 ======================================== */}
         <article className="portfolio__item">
@@ -91,16 +99,18 @@ const Portfolio = () => {
             <img src={IMG1} alt="Project 1" />
           </div>
           <h3>Portfolio item title</h3>
-          <a href="https://github.com" target="_blank" className="btn">
-            Github
-          </a>
-          <a
-            href="https://google.com"
-            target="_blank"
-            className="btn btn-primary"
-          >
-            Live Demo
-          </a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com" target="_blank" className="btn">
+              Github
+            </a>
+            <a
+              href="https://google.com"
+              target="_blank"
+              className="btn btn-primary"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
         {/* Project #1 ======================================== */}
         <article className="portfolio__item">
@@ -108,16 +118,18 @@ const Portfolio = () => {
             <img src={IMG1} alt="Project 1" />
           </div>
           <h3>Portfolio item title</h3>
-          <a href="https://github.com" target="_blank" className="btn">
-            Github
-          </a>
-          <a
-            href="https://google.com"
-            target="_blank"
-            className="btn btn-primary"
-          >
-            Live Demo
-          </a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com" target="_blank" className="btn">
+              Github
+            </a>
+            <a
+              href="https://google.com"
+              target="_blank"
+              className="btn btn-primary"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
       </div>
     </section>

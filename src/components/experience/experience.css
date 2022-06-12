@@ -22,6 +22,7 @@
   background: transparent;
   border-color: var(--colour-primary);
   cursor: default;
+  transform: scale(1.05);
 }
 
 .experience__container > div h3 {

@@ -21,6 +21,7 @@
   background: transparent;
   border-color: var(--colour-primary);
   cursor: default;
+  transform: scale(1.05);
 }
 
 .service__head {

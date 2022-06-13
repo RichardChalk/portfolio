@@ -11,17 +11,17 @@
 }
 
 :root {
-  /* -- A bluish colour template...*/
   --colour-bg: #1f1f38;
   --colour-bg-variant: #2c2c6c;
-  --colour-primary: #4db5ff;
+  /* -- A bluish colour template...*/
+  /* --colour-primary: #4db5ff; */
+  /* -- A orange colour template...*/
+  --colour-primary: #eead17;
+
   --colour-primary-header-image: #4db5ff;
   --colour-primary-variant: rgba(77, 181, 255, 0.4);
   --colour-white: #fff;
   --colour-light: rgba(255, 255, 255, 0.6);
-
-  /* -- A orange colour template...*/
-  --colour-primary: #eead17;
 
   /* Used for media queries */
   --container-width-lg: 75%;

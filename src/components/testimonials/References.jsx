@@ -4,6 +4,18 @@ import AVTR2 from "../../assets/avatar2.jpg"
 import AVTR3 from "../../assets/avatar3.jpg"
 import AVTR4 from "../../assets/avatar4.jpg"
 
+// import Swiper core and required modules
+// import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Pagination, Navigation } from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+// import 'swiper/css/navigation';
+// import 'swiper/css/scrollbar';
+
 const referencesArray = [
   {
     id: 1,
@@ -34,10 +46,17 @@ const referencesArray = [
 
 const References = () => {
   return (
-    <div className="container testimonials__container">
+    <Swiper className="container testimonials__container"
+     // install Swiper modules
+     modules={[Pagination]}
+     spaceBetween={40}
+     slidesPerView={1}
+     navigation
+     pagination={{ clickable: true }}
+     >
     {referencesArray.map(({ id, image, name, review }) => {
       return (
-        <article className="testimonial">
+        <SwiperSlide  key={id} className="testimonial">
           <div className="client__avatar">
             <img src={image} alt={name} />
           </div>
@@ -45,10 +64,10 @@ const References = () => {
           <small className="client__review">
             {review}
           </small>
-        </article>
+        </SwiperSlide>
       );
     })}
-  </div>  );
+  </Swiper>  );
 };
 
 export default References;

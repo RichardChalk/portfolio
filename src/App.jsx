@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useImperativeHandle, useRef } from "react";
 import Header from "./components/header/Header.jsx";
 import Nav from "./components/nav/Nav.jsx";
 import About from "./components/about/About.jsx";
@@ -18,6 +18,10 @@ const SnackbarType = {
 }
 
 const App = () => {
+  
+  // I am using "useRef" so we can call the function "Show" inside the "Snackbar" component
+  const snackbarRef = useRef(null);
+    
   return (
     <>
       <Header />
@@ -29,7 +33,12 @@ const App = () => {
       <Testimonials />
       <Contact />
       <Footer />
-      <Snackbar message="Email sent successfully" type={SnackbarType.success}/>
+      <Snackbar 
+        ref={snackbarRef}
+        message="Email sent successfully" type={SnackbarType.success}/>
+        <button onClick={() => {
+          snackbarRef.current.Show()
+        }}>Test</button>
     </>
   );
 };

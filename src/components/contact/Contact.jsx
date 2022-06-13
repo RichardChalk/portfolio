@@ -8,9 +8,21 @@ import { RiMessengerLine } from "react-icons/ri";
 // Using emailjs "https://dashboard.emailjs.com/admin"
 import { useRef } from 'react';
 import emailjs from "emailjs-com";
+import Snackbar from "../snackbar/Snackbar.jsx";
+
+// I wanted to give the opportunity to add error message in the future
+// Right now Im just using the success message however
+const SnackbarType = {
+  success: "success",
+  fail: "fail"
+}
+
 
 
 const Contact = () => {
+
+  // I am using "useRef" so we can call the function "Show" inside the "Snackbar" component
+  const snackbarRef = useRef(null);
 
 // Needed to send emails from Portfolio
   const form = useRef();
@@ -60,9 +72,16 @@ const Contact = () => {
         <input type="text" className="contact__input" name="name" placeholder="Your full name" required/>
         <input type="email" className="contact__input" name="email" placeholder="Your email" required />
         <textarea rows="7" className="contact__input" name="message"placeholder="Your message" required />
-        <button type="submit" className="btn btn-primary">Send message</button>
+        <button type="submit" className="btn btn-primary"
+        onClick={() => {
+          snackbarRef.current.Show()
+        }}>Send message</button>
       </form>
     </div>
+    <Snackbar 
+        ref={snackbarRef}
+        message="Email sent successfully" type={SnackbarType.success}/
+    >
   </section>;
 };
 

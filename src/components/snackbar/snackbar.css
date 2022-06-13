@@ -1,0 +1,20 @@
+.snackbar{
+    position: fixed;
+    right: 5%;
+    top: 5%;
+    transform: translate(-50%,-50%);
+    border-radius: .5rem;
+    display: flex;
+    width: max-content;
+    align-items: center;
+    text-align: center;
+}
+
+.snackbar__icon{
+    padding: .6rem;
+}
+
+.snackbar__message{
+    padding-right: .6rem;
+}
+

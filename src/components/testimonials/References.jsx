@@ -11,7 +11,7 @@ import AVTR4 from "../../assets/avatar4.jpg"
 
 // import Swiper core and required modules
 // import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
-import { Pagination, Navigation } from 'swiper';
+import { Pagination } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 

@@ -28,9 +28,18 @@
     margin: 0.8rem auto 0;
 }
 
+.swiper-pagination .swiper-pagination-bullet {
+    opacity: 1;
+    background-color: var(--colour-light);
+}
+
+
 .swiper-pagination-bullet-active {
     background: var(--colour-primary) !important;
+    width: .8rem !important;
+    height: .8rem !important;
 }
+
 
 /* =============== Media queries ===============  */
 

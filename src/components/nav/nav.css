@@ -53,9 +53,9 @@ nav a.active {
   padding: 5px 0;
   position: absolute;
   z-index: 1;
-  bottom: 150%;
+  bottom: 120%;
   left: 50%;
-  margin-left: -60px;
+  margin-left: -3rem;
   font-size: 0.8rem;
   transition: opacity 0.6s ease-in-out;
 }

@@ -1,80 +1,84 @@
 /* LEFT - Contact options ========================================= */
 
-.container.contact__container{
-    width: 58%;
-    display: grid;
-    grid-template-columns: 30% 58%;
-    gap: 12%;
-    margin-bottom: 4rem;
+.container.contact__container {
+  width: 58%;
+  display: grid;
+  grid-template-columns: 30% 58%;
+  gap: 12%;
+  margin-bottom: 4rem;
 }
 
-.contact__options{
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
+.contact__options {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
 }
 
-.contact__option{
-    background-color: transparent;
-    padding: 1.2rem;
-    border-radius: 1.2rem;
-    text-align: center;
-    border: 1px solid var(--colour-primary);
-    transition: var(--transition);
+.contact__option {
+  background-color: transparent;
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  border: 1px solid var(--colour-primary);
+  transition: var(--transition);
 }
 
-.contact__option:hover{
-    background: var(--colour-bg-variant);
-    border: 1px solid transparent;
+.contact__option:hover {
+  background: var(--colour-bg-variant);
+  border: 1px solid transparent;
 }
 
-.contact__option-icon{
-    font-size: 1.5rem;
+.contact__option-icon {
+  font-size: 1.5rem;
 }
 
-.contact__option h5{
-    color: var(--colour-light);
+.contact__option h5 {
+  color: var(--colour-light);
 }
 
 .contact__option a {
-    margin-top: 0.7rem;
-    display: inline-block;
-    font-size: .8rem;
+  margin-top: 0.7rem;
+  display: inline-block;
+  font-size: 0.8rem;
+}
+
+.contact__email {
+  word-wrap: break-word;
 }
 
 /* RIGHT - Form ========================================= */
-.contact__form{
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
 }
 
-.contact__input{
-    width: 100%;
-    padding: 1.5rem;
-    border-radius: .5rem;
-    background: transparent;
-    border: 1px solid var(--colour-primary);
-    resize: none; /* Dont allow user to resize textarea */
-    color: var(--colour-white);
+.contact__input {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  border: 1px solid var(--colour-primary);
+  resize: none; /* Dont allow user to resize textarea */
+  color: var(--colour-white);
 }
 
 /* =============== Media queries ===============  */
 
 /* Medium devices */
 @media screen and (max-width: 1024px) {
-    .container.contact__container{
-        grid-template-columns: 1fr;
-        gap: 2rem;
-        margin-bottom: 6rem;
-    }
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-bottom: 6rem;
+  }
 }
 
 /* Small devices */
 @media screen and (max-width: 600px) {
-    .container.contact__container{
-        grid-template-columns: 1fr;
-        width: var(--container-width-sm);
-        margin-bottom: 6rem;
-    }
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    width: var(--container-width-sm);
+    margin-bottom: 6rem;
+  }
 }

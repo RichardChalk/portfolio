@@ -17,7 +17,7 @@ const Contact = () => {
           <HiOutlineMail/>
           <h4>Email</h4>
           <h5>richard.erdos.chalk@gmail.com</h5>
-          <a href="mailto:richard.erdos.chalk@gmail.com">Send an email</a>
+          <a href="mailto:richard.erdos.chalk@gmail.com" target="_blank">Send an email</a>
         </article>
         <article className="contact__option">
           <RiMessengerLine/>
@@ -35,7 +35,10 @@ const Contact = () => {
 
       {/* RIGHT SIDE - Contact form ==================================== */}
       <form action="">
-
+        <input type="text" name="name" placeholder="Your full name" required/>
+        <input type="email" name="email" placeholder="Your email" required />
+        <textarea rows="7" placeholder="Your message" required />
+        <button type="submit" className="btn btn-primary">Send message</button>
       </form>
     </div>
   </section>;

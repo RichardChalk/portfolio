@@ -4,7 +4,29 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsTelephone } from "react-icons/bs";
 import { RiMessengerLine } from "react-icons/ri";
 
+// Needed to send emails from Portfolio
+// Using emailjs "https://dashboard.emailjs.com/admin"
+import { useRef } from 'react';
+import emailjs from "emailjs-com";
+
+
 const Contact = () => {
+
+// Needed to send emails from Portfolio
+  const form = useRef();
+
+  const sendEmail = (e) => {
+  e.preventDefault();
+
+  emailjs.sendForm('service_1btlr7h', 'template_nkoadjs', form.current, 'lxthyyRHadzoEMwu2')
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
+    e.target.reset();
+};
+
   return <section id="contact">
     <h5>Get in touch</h5>
     <h2>Contact me</h2>
@@ -34,10 +56,10 @@ const Contact = () => {
       </div>
 
       {/* RIGHT SIDE - Contact form ==================================== */}
-      <form action="" className="contact__form">
+      <form ref={form} className="contact__form" onSubmit={sendEmail}>
         <input type="text" className="contact__input" name="name" placeholder="Your full name" required/>
         <input type="email" className="contact__input" name="email" placeholder="Your email" required />
-        <textarea rows="7" className="contact__input" placeholder="Your message" required />
+        <textarea rows="7" className="contact__input" name="message"placeholder="Your message" required />
         <button type="submit" className="btn btn-primary">Send message</button>
       </form>
     </div>

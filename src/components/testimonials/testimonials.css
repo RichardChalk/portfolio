@@ -28,6 +28,7 @@
     margin: 0.8rem auto 0;
 }
 
+/* Swiper is used for pagination */
 .swiper-pagination .swiper-pagination-bullet {
     opacity: 1;
     background-color: var(--colour-light);

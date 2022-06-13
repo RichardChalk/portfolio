@@ -17,8 +17,6 @@ const SnackbarType = {
   fail: "fail"
 }
 
-
-
 const Contact = () => {
 
   // I am using "useRef" so we can call the function "Show" inside the "Snackbar" component
@@ -37,6 +35,9 @@ const Contact = () => {
         console.log(error.text);
     });
     e.target.reset();
+
+    // Show Success notification
+    snackbarRef.current.Show()
 };
 
   return <section id="contact">
@@ -73,15 +74,13 @@ const Contact = () => {
         <input type="email" className="contact__input" name="email" placeholder="Your email" required />
         <textarea rows="7" className="contact__input" name="message"placeholder="Your message" required />
         <button type="submit" className="btn btn-primary"
-        onClick={() => {
-          snackbarRef.current.Show()
-        }}>Send message</button>
+       >Send message</button>
       </form>
     </div>
     <Snackbar 
         ref={snackbarRef}
-        message="Email sent successfully" type={SnackbarType.success}/
-    >
+        message="Email sent successfully" type={SnackbarType.success}
+        />
   </section>;
 };
 

@@ -41,7 +41,7 @@ header {
 }
 
 /* Image ====================================== */
-.me {
+/* .me {
   background: linear-gradient(var(--colour-primary-header-image), transparent);
   width: 22rem;
   height: 30rem;
@@ -50,15 +50,26 @@ header {
   margin-top: 4rem;
   border-radius: 2rem 2rem 0 0;
   overflow: hidden;
-  padding: 5rem 1.5rem 1.5rem 1.5rem;
-  /* Needed for my own image? */
-  padding: 5rem 0 0 0;
-}
+  padding: 5rem 1.5rem 1.5rem 1.5rem; */
+/* Needed for my own image? */
+/* padding: 5rem 0 0 0;
+} */
 
 /* Needed for my own image? */
-.me > img {
+/* .me > img {
   width: 24rem;
   height: 24rem;
+  object-fit: contain;
+} */
+
+.me {
+  width: 30rem;
+  position: absolute;
+  left: calc(50% - 15rem);
+  margin-top: 4rem;
+  overflow: hidden;
+  border-right: 2px solid var(--colour-primary);
+  border-bottom: 2px solid var(--colour-primary);
 }
 
 /* Scroll Down text ====================================== */

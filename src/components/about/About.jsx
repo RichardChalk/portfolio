@@ -39,9 +39,13 @@ const About = () => {
           {/* TODO Update bio text */}
           <p>
             I migrated from England 1997 and I am currently living in Vällingby
-            with my wife and 3 children. Interested in tech. Love design.
-            Studied .NET Fullstack Developer for 2 years at at SKYS
-            Yrkeshögskola. Currently full-time employed at Sweet Systems CRM.
+            with my wife and 3 children. In 2020 I started studying .NET Fullstack 
+            Developer for 2 years at at SKYS Yrkeshögskola. 
+            I'm currently a full-time employee at Sweet Systems CRM working as a Fullstack Developer.
+
+            I like both coding and design and really enjoy building things that are both beautiful and functional!
+
+
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's talk

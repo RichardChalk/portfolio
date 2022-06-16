@@ -57,14 +57,51 @@
   gap: 1.2rem;
 }
 
-.contact__input {
+.contact__input-div {
+  position: relative;
+  width: 250px;
+}
+
+.contact__input-div input,
+.contact__input-div textarea {
   width: 100%;
-  padding: 1.5rem;
+  padding: 0.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: #1f1f38;
   border-radius: 0.5rem;
-  background: transparent;
-  border: 1px solid var(--colour-primary);
-  resize: none; /* Dont allow user to resize textarea */
-  color: var(--colour-white);
+  outline: none;
+  color: white;
+  transition: 0.5s;
+}
+
+.contact__input-div span {
+  position: absolute;
+  left: 0;
+  padding: 0.8rem;
+  pointer-events: none;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.25);
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.contact__input-div input:valid ~ span,
+.contact__input-div input:focus ~ span,
+.contact__input-div textarea:focus ~ span,
+.contact__input-div textarea:focus ~ span {
+  color: #eead17;
+  transform: translateX(0.8rem) translateY(-0.35rem);
+  font-size: 0.6rem;
+  padding: 0 0.8rem;
+  background: #1f1f38;
+  border-left: 1px solid #eead17;
+  border-right: 1px solid #eead17;
+  letter-spacing: 0.2rem;
+}
+
+.contact__input-div input:valid,
+.contact__input-div input:focus {
+  border: 1px solid #eead17;
 }
 
 /* =============== Media queries ===============  */

@@ -83,27 +83,33 @@ const Contact = () => {
 
         {/* RIGHT SIDE - Contact form ==================================== */}
         <form ref={form} className="contact__form" onSubmit={sendEmail}>
-          <input
-            type="text"
-            className="contact__input"
-            name="name"
-            placeholder="Your full name"
-            required
-          />
-          <input
-            type="email"
-            className="contact__input"
-            name="email"
-            placeholder="Your email"
-            required
-          />
-          <textarea
-            rows="7"
-            className="contact__input"
-            name="message"
-            placeholder="Your message"
-            required
-          />
+          <div class="contact__input-div">
+            <input
+              type="text"
+              className="contact__input"
+              name="name"
+              required
+            />
+            <span>Your full Name</span>
+          </div>
+          <div class="contact__input-div">
+            <input
+              type="email"
+              className="contact__input"
+              name="email"
+              required
+            />
+            <span>Your email</span>
+          </div>
+          <div class="contact__input-div">
+            <textarea
+              rows="7"
+              className="contact__input"
+              name="message"
+              required
+            />
+            <span>Your message</span>
+          </div>
           <button type="submit" className="btn btn-primary">
             Send message
           </button>

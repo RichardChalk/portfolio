@@ -1,6 +1,6 @@
 import React from "react";
 import "./services.css";
-import { RiCheckboxBlankCircleFill } from "react-icons/ri";
+import { FcCheckmark } from "react-icons/fc";
 
 const Services = () => {
   return (
@@ -16,16 +16,23 @@ const Services = () => {
           </div>
           <ul className="service__list">
             <li>
-              <RiCheckboxBlankCircleFill className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <FcCheckmark className="service__list-icon" />
+              <p>How graphic designers work with user interfaces</p>
             </li>
             <li>
-              <RiCheckboxBlankCircleFill className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <FcCheckmark className="service__list-icon" />
+              <p>Image manipulation</p>
             </li>
             <li>
-              <RiCheckboxBlankCircleFill className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <FcCheckmark className="service__list-icon" />
+              <p>Prototyping in Adobe XD</p>
+            </li>
+            <li>
+              <FcCheckmark className="service__list-icon" />
+              <p>
+                Best practise regarding typography, iconography, white space
+                etc.
+              </p>
             </li>
           </ul>
         </article>
@@ -38,37 +45,52 @@ const Services = () => {
 
           <ul className="service__list">
             <li>
-              <RiCheckboxBlankCircleFill className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <FcCheckmark className="service__list-icon" />
+              <p>Implementation of AJAX</p>
             </li>
             <li>
-              <RiCheckboxBlankCircleFill className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <FcCheckmark className="service__list-icon" />
+              <p>Windows Azure</p>
             </li>
             <li>
-              <RiCheckboxBlankCircleFill className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <FcCheckmark className="service__list-icon" />
+              <p>
+                Javascript event listeners, modules, classes, higher functions,
+                API fetch and async
+              </p>
+            </li>
+            <li>
+              <FcCheckmark className="service__list-icon" />
+              <p>React JS</p>
             </li>
           </ul>
         </article>
 
-        {/* Card 3 - Content creation */}
+        {/* Card 3 - Backend */}
         <article className="service">
           <div className="service__head">
             <h3>Backend</h3>
           </div>
           <ul className="service__list">
             <li>
-              <RiCheckboxBlankCircleFill className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <FcCheckmark className="service__list-icon" />
+              <p>Design Patterns in C#</p>
             </li>
             <li>
-              <RiCheckboxBlankCircleFill className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <FcCheckmark className="service__list-icon" />
+              <p>SOLID principles</p>
             </li>
             <li>
-              <RiCheckboxBlankCircleFill className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <FcCheckmark className="service__list-icon" />
+              <p>MVC, Razor Pages and Rest API</p>
+            </li>
+            <li>
+              <FcCheckmark className="service__list-icon" />
+              <p>Database Modelling including Entity Framework</p>
+            </li>
+            <li>
+              <FcCheckmark className="service__list-icon" />
+              <p>T-SQL & LINQ</p>
             </li>
           </ul>
         </article>

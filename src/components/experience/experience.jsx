@@ -59,13 +59,13 @@ const Experience = () => {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
-            <article className="experience__details">
+            {/* <article className="experience__details">
               <img src={ReactLogo} className="experience__details-icon"></img>
               <div>
                 <h4>EMPTY</h4>
                 <small className="text-light">EMPTY</small>
               </div>
-            </article>
+            </article> */}
           </div>
         </div>
 
@@ -108,13 +108,13 @@ const Experience = () => {
                 <small className="text-light">Experienced</small>
               </div>
             </article>
-            <article className="experience__details">
+            {/* <article className="experience__details">
               <img src={NETLogo} className="experience__details-icon"></img>
               <div>
                 <h4>EMPTY</h4>
                 <small className="text-light">EMPTY</small>
               </div>
-            </article>
+            </article> */}
           </div>
         </div>
       </div>

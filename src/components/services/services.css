@@ -50,6 +50,7 @@
   color: var(--colour-primary);
   /* margin-top: 2px; */
   margin-top: 0.3rem;
+  min-width: 1rem;
 }
 
 .service__list p {

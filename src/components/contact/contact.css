@@ -65,11 +65,21 @@
   border: 1px solid var(--colour-primary);
   resize: none; /* Dont allow user to resize textarea */
   color: var(--colour-white);
+  transition: var(--transition);
 }
 
 .contact__input:active,
 .contact__input:focus {
   background: var(--colour-bg-variant);
+}
+
+.contact__input::placeholder {
+  color: var(--colour-light);
+  font-family: "Poppins", sans-serif;
+}
+
+.contact__input:focus::placeholder {
+  color: transparent;
 }
 
 /* =============== Media queries ===============  */

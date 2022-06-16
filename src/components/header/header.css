@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 5rem;
+  padding-top: 4rem;
   overflow: hidden;
 }
 
@@ -81,6 +81,11 @@ header {
   font-weight: 300;
   font-size: 0.9rem;
 }
+
+/* Didnt like the look of this with an icon */
+/* .header__contact-icon {
+  margin-right: 0.5rem;
+} */
 
 /* Tooltips SOCIAL =============================  */
 

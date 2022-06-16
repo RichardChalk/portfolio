@@ -4,6 +4,7 @@ import CTA from "./CTA";
 // import ME from "../../assets/me.png";
 import ME from "../../assets/me.JPG";
 import HeaderSocials from "./HeaderSocials";
+import { HiOutlineMail } from "react-icons/hi";
 
 const Header = () => {
   return (
@@ -23,7 +24,9 @@ const Header = () => {
         </div>
 
         <a href="#contact" className="scroll__down">
-          Scroll Down
+          {/* Didnt like the look of this with an icon */}
+          {/* <HiOutlineMail className="header__contact-icon" /> */}
+          Contact me
         </a>
       </div>
     </header>

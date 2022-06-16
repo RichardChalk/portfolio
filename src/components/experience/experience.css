@@ -1,7 +1,7 @@
-/* #experience {
-  padding: 7rem;
+#experience {
+  padding: 4rem;
 }
- */
+
 .experience__container {
   display: grid;
   grid-template-columns: 1fr 1fr;

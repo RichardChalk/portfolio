@@ -19,7 +19,7 @@
 }
 
 .contact__option {
-  background-color: transparent;
+  background: var(--colour-bg);
   padding: 1.2rem;
   border-radius: 1.2rem;
   text-align: center;
@@ -61,10 +61,15 @@
   width: 100%;
   padding: 1.5rem;
   border-radius: 0.5rem;
-  background: transparent;
+  background: var(--colour-bg);
   border: 1px solid var(--colour-primary);
   resize: none; /* Dont allow user to resize textarea */
   color: var(--colour-white);
+}
+
+.contact__input:active,
+.contact__input:focus {
+  background: var(--colour-bg-variant);
 }
 
 /* =============== Media queries ===============  */

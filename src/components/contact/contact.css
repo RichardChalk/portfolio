@@ -60,7 +60,7 @@
 .contact__input-div {
   position: relative;
   width: 100%;
-  padding: 1.5rem;
+  padding: 0.5rem;
   border-radius: 0.5rem;
   background: transparent;
   border: 1px solid var(--colour-primary);
@@ -71,11 +71,10 @@
 .contact__input-div textarea {
   width: 100%;
   padding: 0.8rem;
-  /* border: 1px solid rgba(255, 255, 255, 0.2); */
   background: transparent;
   border-radius: 0.5rem;
   outline: none;
-  color: white;
+  color: var(--colour-white);
   transition: 0.5s;
   resize: none; /* Dont allow user to resize textarea */
 }
@@ -85,7 +84,7 @@
   left: 0;
   padding: 0.8rem;
   pointer-events: none;
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: var(--colour-light);
   text-transform: uppercase;
   transition: var(--transition);
@@ -96,12 +95,16 @@
 .contact__input-div textarea:focus ~ span,
 .contact__input-div textarea:focus ~ span {
   color: #eead17;
-  transform: translateX(2rem) translateY(-0.35rem);
+  transform: translateX(1rem) translateY(-0.35rem);
   font-size: 0.6rem;
   padding: 0 0.8rem;
   background: #1f1f38;
-  border-left: 1px solid #eead17;
-  border-right: 1px solid #eead17;
+  /* border-left: 1px solid #eead17;
+  border-right: 1px solid #eead17; */
+  background: var(--colour-primary);
+  color: var(--colour-bg);
+  font-weight: bold;
+  border-radius: 0.2rem;
   letter-spacing: 0.2rem;
 }
 

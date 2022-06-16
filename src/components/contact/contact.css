@@ -59,19 +59,25 @@
 
 .contact__input-div {
   position: relative;
-  width: 250px;
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  border: 1px solid var(--colour-primary);
+  color: var(--colour-white);
 }
 
 .contact__input-div input,
 .contact__input-div textarea {
   width: 100%;
   padding: 0.8rem;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  background: #1f1f38;
+  /* border: 1px solid rgba(255, 255, 255, 0.2); */
+  background: transparent;
   border-radius: 0.5rem;
   outline: none;
   color: white;
   transition: 0.5s;
+  resize: none; /* Dont allow user to resize textarea */
 }
 
 .contact__input-div span {
@@ -80,9 +86,9 @@
   padding: 0.8rem;
   pointer-events: none;
   font-size: 1rem;
-  color: rgba(255, 255, 255, 0.25);
+  color: var(--colour-light);
   text-transform: uppercase;
-  transition: 0.5s;
+  transition: var(--transition);
 }
 
 .contact__input-div input:valid ~ span,
@@ -90,7 +96,7 @@
 .contact__input-div textarea:focus ~ span,
 .contact__input-div textarea:focus ~ span {
   color: #eead17;
-  transform: translateX(0.8rem) translateY(-0.35rem);
+  transform: translateX(2rem) translateY(-0.35rem);
   font-size: 0.6rem;
   padding: 0 0.8rem;
   background: #1f1f38;
@@ -99,10 +105,12 @@
   letter-spacing: 0.2rem;
 }
 
-.contact__input-div input:valid,
-.contact__input-div input:focus {
+/* .contact__input-div input:valid,
+.contact__input-div input:focus,
+.contact__input-div textarea:valid,
+.contact__input-div textarea:focus {
   border: 1px solid #eead17;
-}
+} */
 
 /* =============== Media queries ===============  */
 

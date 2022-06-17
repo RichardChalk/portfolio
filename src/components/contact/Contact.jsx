@@ -104,7 +104,7 @@ const Contact = () => {
             placeholder="Your message"
             required
           />
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" className="btn btn-primary contact__send">
             Send message
           </button>
         </form>

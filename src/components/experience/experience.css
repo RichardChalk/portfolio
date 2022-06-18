@@ -1,5 +1,5 @@
 #experience {
-  padding: 4rem;
+  padding-top: 4rem;
 }
 
 .experience__container {
@@ -81,6 +81,10 @@
 
   .experience__container > div {
     width: 100%;
-    padding: 2rem 1rem;
+    padding: 2rem 0;
+  }
+
+  .experience__details {
+    gap: 0;
   }
 }

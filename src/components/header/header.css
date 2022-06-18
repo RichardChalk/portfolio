@@ -91,11 +91,14 @@ header {
 } */
 
 .me {
-  width: 30rem;
-  position: absolute;
-  left: calc(50% - 15rem);
   margin-top: 4rem;
-  overflow: hidden;
+  display: grid;
+  place-content: center;
+  width: 100%;
+}
+
+.me img {
+  max-width: 30rem;
   border-right: 2px solid var(--colour-primary);
   border-bottom: 2px solid var(--colour-primary);
 }

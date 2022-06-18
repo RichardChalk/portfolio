@@ -1,6 +1,6 @@
 {
-  "homepage": "https://github.com/RichardChalk/portfolio-website-1",
-  "name": "portfolio-website-1",
+  "homepage": "https://github.com/RichardChalk/portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

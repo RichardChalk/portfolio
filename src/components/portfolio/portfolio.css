@@ -25,14 +25,15 @@
 .portfolio__item-image {
   border-radius: 1.5rem;
   overflow: hidden;
-  position: relative;
 }
 
+.portfolio__title{
+  position: relative;
+}
 .portfolio__item-logo {
   position: absolute;
-  top: 1rem;
-  left: 1rem;
-  width: 3rem;
+  right: 0rem;
+  width: 2rem;
 }
 
 .portfolio__item h3 {

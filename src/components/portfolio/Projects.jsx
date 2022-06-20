@@ -33,18 +33,18 @@ const projectsArray = [
     image: IMG1,
     logo: CLogo,
     title: "Bank app",
-    description: "A Razor Pages app using the Database First model.",
+    description: "Razor Pages app using the 'Database First' model (for logins see Github).",
     github: "https://github.com/RichardChalk/JAFU20-Bank",
     demo: "https://bankwebapprichardchalk.azurewebsites.net",
   },
   {
     id: 2,
     image: IMG2,
-    logo: CSSLogo,
-    title: "Portfolio item title 2",
-    description: "Description Description Description Description .",
-    github: "https://github.com",
-    demo: "https://google.com",
+    logo: ReactLogo,
+    title: "E-Shop",
+    description: "A simple E-Shop app in React utilising FakeStore-api. Includes a shopping cart with total items",
+    github: "https://github.com/RichardChalk/react-fakestore-api",
+    demo: "https://richardchalk.github.io/react-fakestore-api/",
   },
   {
     id: 3,
@@ -92,9 +92,11 @@ const Projects = () => {
           <article key={id} className="portfolio__item">
             <div className="portfolio__item-image">
               <img src={image} alt={title} className="portfolio__img" />
-              <img src={logo} className="portfolio__item-logo"></img>
             </div>
+            <div className="portfolio__title">
+            <img src={logo} className="portfolio__item-logo"></img>
             <h3>{title}</h3>
+            </div>
             <h5>{description}</h5>
             <div className="portfolio__item-cta">
               <a href={github} target="_blank" className="btn">

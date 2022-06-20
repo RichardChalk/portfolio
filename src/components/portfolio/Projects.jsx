@@ -33,7 +33,8 @@ const projectsArray = [
     image: IMG1,
     logo: CLogo,
     title: "Bank app",
-    description: "Razor Pages app using the 'Database First' Entity Framework model (for logins see Github).",
+    description:
+      "Razor Pages app using the 'Database First' Entity Framework model (for logins see Github).",
     github: "https://github.com/RichardChalk/JAFU20-Bank",
     demo: "https://bankwebapprichardchalk.azurewebsites.net",
   },
@@ -42,18 +43,20 @@ const projectsArray = [
     image: IMG2,
     logo: ReactLogo,
     title: "E-Shop",
-    description: "A simple E-Shop app in React utilising FakeStore-api. Includes a shopping cart with total items",
+    description:
+      "A simple E-Shop app in React utilising FakeStore-api. Includes a shopping cart with total items",
     github: "https://github.com/RichardChalk/react-fakestore-api",
     demo: "https://richardchalk.github.io/react-fakestore-api/",
   },
   {
     id: 3,
     image: IMG3,
-    logo: CSSLogo,
-    title: "Portfolio item title 3",
-    description: "Description Description Description Description .",
-    github: "https://github.com",
-    demo: "https://google.com",
+    logo: CLogo,
+    title: "REST API",
+    description:
+      "A .NET REST API with JWT Token authorisation and an SQL Server Database (for logins see Github).",
+    github: "https://github.com/RichardChalk/JAFU20-AdvertsAPI",
+    demo: "https://advertsapi.azurewebsites.net/swagger/index.html",
   },
   {
     id: 4,
@@ -87,29 +90,31 @@ const projectsArray = [
 const Projects = () => {
   return (
     <div className="container portfolio__container">
-      {projectsArray.map(({ id, image, logo, title, description, github, demo }) => {
-        return (
-          <article key={id} className="portfolio__item">
-            <div className="portfolio__item-image">
-              <img src={image} alt={title} className="portfolio__img" />
-            </div>
-            <div className="portfolio__title">
-            <img src={logo} className="portfolio__item-logo"></img>
-            <h3>{title}</h3>
-            </div>
-            <h5>{description}</h5>
-            <div className="portfolio__item-cta">
-              <a href={github} target="_blank" className="btn">
-                <FaGithub className="portfolio-git" />
-                Github
-              </a>
-              <a href={demo} target="_blank" className="btn btn-primary">
-                Live Demo
-              </a>
-            </div>
-          </article>
-        );
-      })}
+      {projectsArray.map(
+        ({ id, image, logo, title, description, github, demo }) => {
+          return (
+            <article key={id} className="portfolio__item">
+              <div className="portfolio__item-image">
+                <img src={image} alt={title} className="portfolio__img" />
+              </div>
+              <div className="portfolio__title">
+                <img src={logo} className="portfolio__item-logo"></img>
+                <h3>{title}</h3>
+              </div>
+              <h5>{description}</h5>
+              <div className="portfolio__item-cta">
+                <a href={github} target="_blank" className="btn">
+                  <FaGithub className="portfolio-git" />
+                  Github
+                </a>
+                <a href={demo} target="_blank" className="btn btn-primary">
+                  Live Demo
+                </a>
+              </div>
+            </article>
+          );
+        }
+      )}
     </div>
   );
 };

@@ -33,7 +33,7 @@ const projectsArray = [
     image: IMG1,
     logo: CLogo,
     title: "Bank app",
-    description: "Razor Pages app using the 'Database First' model (for logins see Github).",
+    description: "Razor Pages app using the 'Database First' Entity Framework model (for logins see Github).",
     github: "https://github.com/RichardChalk/JAFU20-Bank",
     demo: "https://bankwebapprichardchalk.azurewebsites.net",
   },

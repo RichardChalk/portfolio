@@ -31,10 +31,10 @@ const projectsArray = [
   {
     id: 1,
     image: IMG1,
-    logo: CSSLogo,
-    title: "Portfolio item title 1",
-    github: "https://github.com",
-    demo: "https://google.com",
+    logo: CLogo,
+    title: "Bank app",
+    github: "https://github.com/RichardChalk/JAFU20-Bank",
+    demo: "https://bankwebapprichardchalk.azurewebsites.net",
   },
   {
     id: 2,
@@ -85,7 +85,7 @@ const Projects = () => {
         return (
           <article key={id} className="portfolio__item">
             <div className="portfolio__item-image">
-              <img src={image} alt={title} />
+              <img src={image} alt={title} className="portfolio__img" />
               <img src={logo} className="portfolio__item-tool"></img>
             </div>
             <h3>{title}</h3>

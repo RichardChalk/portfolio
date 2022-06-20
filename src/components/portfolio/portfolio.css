@@ -28,16 +28,22 @@
   position: relative;
 }
 
-.portfolio__item-tool {
+.portfolio__item-logo {
   position: absolute;
   top: 1rem;
   left: 1rem;
-  width: 4rem;
+  width: 3rem;
 }
 
 .portfolio__item h3 {
-  margin: 1.2rem 0 2rem 0;
+  margin: 1.2rem 0 .5rem 0;
 }
+
+.portfolio__item h5 {
+  color: var(--colour-light);
+  margin-bottom: 1rem;
+}
+
 
 .portfolio__item-cta {
   display: flex;

@@ -33,6 +33,7 @@ const projectsArray = [
     image: IMG1,
     logo: CLogo,
     title: "Bank app",
+    description: "A Razor Pages app using the Database First model.",
     github: "https://github.com/RichardChalk/JAFU20-Bank",
     demo: "https://bankwebapprichardchalk.azurewebsites.net",
   },
@@ -41,6 +42,7 @@ const projectsArray = [
     image: IMG2,
     logo: CSSLogo,
     title: "Portfolio item title 2",
+    description: "Description Description Description Description .",
     github: "https://github.com",
     demo: "https://google.com",
   },
@@ -49,6 +51,7 @@ const projectsArray = [
     image: IMG3,
     logo: CSSLogo,
     title: "Portfolio item title 3",
+    description: "Description Description Description Description .",
     github: "https://github.com",
     demo: "https://google.com",
   },
@@ -57,6 +60,7 @@ const projectsArray = [
     image: IMG4,
     logo: CSSLogo,
     title: "Portfolio item title 4",
+    description: "Description Description Description Description .",
     github: "https://github.com",
     demo: "https://google.com",
   },
@@ -65,6 +69,7 @@ const projectsArray = [
     image: IMG5,
     logo: CSSLogo,
     title: "Portfolio item title 5",
+    description: "Description Description Description Description .",
     github: "https://github.com",
     demo: "https://google.com",
   },
@@ -73,6 +78,7 @@ const projectsArray = [
     image: IMG6,
     logo: CSSLogo,
     title: "Portfolio item title 6",
+    description: "Description Description Description Description .",
     github: "https://github.com",
     demo: "https://google.com",
   },
@@ -81,14 +87,15 @@ const projectsArray = [
 const Projects = () => {
   return (
     <div className="container portfolio__container">
-      {projectsArray.map(({ id, image, logo, title, github, demo }) => {
+      {projectsArray.map(({ id, image, logo, title, description, github, demo }) => {
         return (
           <article key={id} className="portfolio__item">
             <div className="portfolio__item-image">
               <img src={image} alt={title} className="portfolio__img" />
-              <img src={logo} className="portfolio__item-tool"></img>
+              <img src={logo} className="portfolio__item-logo"></img>
             </div>
             <h3>{title}</h3>
+            <h5>{description}</h5>
             <div className="portfolio__item-cta">
               <a href={github} target="_blank" className="btn">
                 <FaGithub className="portfolio-git" />

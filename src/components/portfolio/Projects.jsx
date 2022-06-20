@@ -54,7 +54,7 @@ const projectsArray = [
     logo: CLogo,
     title: "REST API",
     description:
-      "A .NET REST API with JWT Token authorisation and an SQL Server Database (for logins see Github).",
+      "A .NET REST API with JWT Token authorisation and a Swagger Interface (for logins see Github).",
     github: "https://github.com/RichardChalk/JAFU20-AdvertsAPI",
     demo: "https://advertsapi.azurewebsites.net/swagger/index.html",
   },

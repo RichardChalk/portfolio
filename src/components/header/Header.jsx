@@ -11,8 +11,9 @@ const Header = () => {
     <header>
       <div className="container header__container">
         <h5>Hello I'm</h5>
-        <h1>
-          Richard<span className="header__fullstop">.</span>
+        <h1 className="header__name">
+          <span className="header__R">R</span>
+          &nbsp;Richard<span className="header__fullstop">.</span>
         </h1>
         <h5 className="text-light">
           .NET Fullstack Developer based in Stockholm Sweden

@@ -10,10 +10,23 @@ header {
   position: relative;
 }
 
+.header__name{
+  
+}
+
+.header__R{
+  color: var(--colour-primary);
+  position: absolute;
+  padding-left: 8px;
+  z-index: -1;
+}
+
 .header__fullstop {
   color: var(--colour-primary);
   font-size: 2rem;
 }
+
+
 
 /* Buttons =========================================== */
 .cta {

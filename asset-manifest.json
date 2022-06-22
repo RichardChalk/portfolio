@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.caf85024.css",
-    "main.js": "/portfolio/static/js/main.298cfe4a.js",
+    "main.js": "/portfolio/static/js/main.787b5770.js",
     "static/media/me-about.png": "/portfolio/static/media/me-about.770ad868a116b13910c8.png",
     "static/media/portfolio1.jpg": "/portfolio/static/media/portfolio1.d36d5d65e51909189cf8.jpg",
+    "static/media/portfolio4.jpg": "/portfolio/static/media/portfolio4.33512810c4e24da76c89.jpg",
     "static/media/portfolio2.jpg": "/portfolio/static/media/portfolio2.6e33a7e075371e0bb4f4.jpg",
     "static/media/CamillaFriden.jpg": "/portfolio/static/media/CamillaFriden.74694c839f3d3fe99401.jpg",
     "static/media/C_Badge.png": "/portfolio/static/media/C_Badge.e095694584811ade286e.png",
@@ -16,17 +17,16 @@
     "static/media/BS_Badge.png": "/portfolio/static/media/BS_Badge.20b9bced2f068835eb4e.png",
     "static/media/portfolio6.jpg": "/portfolio/static/media/portfolio6.72d1107e313049cf15a7.jpg",
     "static/media/sql_Badge.png": "/portfolio/static/media/sql_Badge.dd68892d1cb51354b320.png",
-    "static/media/portfolio4.jpg": "/portfolio/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
     "static/media/MVC_Badge.jpg": "/portfolio/static/media/MVC_Badge.b8817f1628d32e78c594.jpg",
     "static/media/asp_Badge.png": "/portfolio/static/media/asp_Badge.c8965c5a55d5096d822e.png",
     "static/media/CSS3_Badge.png": "/portfolio/static/media/CSS3_Badge.84de5dab5fab27f4161c.png",
     "static/media/BjornSoderin.jpg": "/portfolio/static/media/BjornSoderin.348f4a616e3882065661.jpg",
     "index.html": "/portfolio/index.html",
     "main.caf85024.css.map": "/portfolio/static/css/main.caf85024.css.map",
-    "main.298cfe4a.js.map": "/portfolio/static/js/main.298cfe4a.js.map"
+    "main.787b5770.js.map": "/portfolio/static/js/main.787b5770.js.map"
   },
   "entrypoints": [
     "static/css/main.caf85024.css",
-    "static/js/main.298cfe4a.js"
+    "static/js/main.787b5770.js"
   ]
 }

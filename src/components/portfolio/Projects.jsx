@@ -16,7 +16,7 @@ import IMG1 from "../../assets/portfolio1.jpg";
 import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
+import IMG5 from "../../assets/portfolio5.jpg";
 import IMG6 from "../../assets/portfolio6.jpg";
 
 import { FaGithub } from "react-icons/fa";
@@ -63,7 +63,8 @@ const projectsArray = [
     image: IMG4,
     logo: JSLogo,
     title: "Snake",
-    description: "My version of a classic mobile game from the Nokia 3210 era. Using HTML, CSS & Vanilla Javascript",
+    description:
+      "My version of a classic mobile game from the Nokia 3210 era. Using HTML, CSS & Vanilla Javascript (PC ONLY)",
     github: "https://github.com/RichardChalk/Snake---Portfolio.git",
     demo: "https://richardchalk.github.io/Snake---Portfolio/",
   },
@@ -72,7 +73,8 @@ const projectsArray = [
     image: IMG5,
     logo: CSSLogo,
     title: "Portfolio item title 5",
-    description: "Description Description Description Description .",
+    description:
+      "Description Description Description Description Description Description Description Description.",
     github: "https://github.com",
     demo: "https://google.com",
   },
@@ -81,7 +83,8 @@ const projectsArray = [
     image: IMG6,
     logo: CSSLogo,
     title: "Portfolio item title 6",
-    description: "Description Description Description Description .",
+    description:
+      "Description Description Description Description Description Description Description Description.",
     github: "https://github.com",
     demo: "https://google.com",
   },

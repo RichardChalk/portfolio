@@ -61,11 +61,11 @@ const projectsArray = [
   {
     id: 4,
     image: IMG4,
-    logo: CSSLogo,
-    title: "Portfolio item title 4",
-    description: "Description Description Description Description .",
-    github: "https://github.com",
-    demo: "https://google.com",
+    logo: JSLogo,
+    title: "Snake",
+    description: "My version of a classic mobile game from the Nokia 3210 era. Using HTML, CSS & Vanilla Javascript",
+    github: "https://github.com/RichardChalk/Snake---Portfolio.git",
+    demo: "https://richardchalk.github.io/Snake---Portfolio/",
   },
   {
     id: 5,

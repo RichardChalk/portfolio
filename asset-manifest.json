@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bd635cd6.css",
-    "main.js": "/portfolio/static/js/main.8fba7248.js",
+    "main.css": "/portfolio/static/css/main.7bad5d61.css",
+    "main.js": "/portfolio/static/js/main.cdaef187.js",
     "static/media/me-about.png": "/portfolio/static/media/me-about.770ad868a116b13910c8.png",
     "static/media/portfolio1.jpg": "/portfolio/static/media/portfolio1.d36d5d65e51909189cf8.jpg",
     "static/media/portfolio4.jpg": "/portfolio/static/media/portfolio4.33512810c4e24da76c89.jpg",
@@ -22,11 +22,11 @@
     "static/media/CSS3_Badge.png": "/portfolio/static/media/CSS3_Badge.84de5dab5fab27f4161c.png",
     "static/media/BjornSoderin.jpg": "/portfolio/static/media/BjornSoderin.348f4a616e3882065661.jpg",
     "index.html": "/portfolio/index.html",
-    "main.bd635cd6.css.map": "/portfolio/static/css/main.bd635cd6.css.map",
-    "main.8fba7248.js.map": "/portfolio/static/js/main.8fba7248.js.map"
+    "main.7bad5d61.css.map": "/portfolio/static/css/main.7bad5d61.css.map",
+    "main.cdaef187.js.map": "/portfolio/static/js/main.cdaef187.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd635cd6.css",
-    "static/js/main.8fba7248.js"
+    "static/css/main.7bad5d61.css",
+    "static/js/main.cdaef187.js"
   ]
 }

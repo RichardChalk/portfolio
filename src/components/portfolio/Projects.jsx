@@ -35,7 +35,7 @@ const projectsArray = [
     title: "Bank app",
     description:
       "Razor Pages app using the 'Database First' Entity Framework model (for logins see Github).",
-    github: "https://github.com/RichardChalk/JAFU20-Bank",
+    github: "https://github.com/RichardChalk/BankApp-RazorPages",
     demo: "https://bankwebapprichardchalk.azurewebsites.net",
   },
   {

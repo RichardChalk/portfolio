@@ -11,13 +11,17 @@ header {
 }
 
 .header__R {
-  color: var(--colour-primary);
+  color: #0efcd9;
   position: absolute;
   padding-left: 7px;
   z-index: -1;
   font-weight: bold;
 }
 
+.header__R2 {
+  color: #ff2056;
+  font-weight: bold;
+}
 .header__fullstop {
   color: var(--colour-primary);
   font-size: 2rem;

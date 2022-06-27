@@ -5,8 +5,9 @@ import { FcCheckmark } from "react-icons/fc";
 const Services = () => {
   return (
     <section id="services">
-      <h5>What I offer</h5>
       <h2>Services</h2>
+      <h5>What I offer</h5>
+
       {/* TODO Update services text & headers */}
       <div className="container services__container">
         {/* Card 1 - UI/UX */}

@@ -16,8 +16,8 @@ import MVCLogo from "../../assets/MVC_Badge.jpg";
 const Experience = () => {
   return (
     <section id="experience">
-      <h5>What skills I have</h5>
       <h2>My Experience</h2>
+      <h5>What skills I have</h5>
 
       <div className="container experience__container">
         {/* FRONTEND =========================================== */}

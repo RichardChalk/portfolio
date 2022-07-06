@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.7bad5d61.css",
-    "main.js": "/portfolio/static/js/main.cdaef187.js",
+    "main.js": "/portfolio/static/js/main.c88f4a42.js",
     "static/media/me-about.png": "/portfolio/static/media/me-about.770ad868a116b13910c8.png",
     "static/media/portfolio1.jpg": "/portfolio/static/media/portfolio1.d36d5d65e51909189cf8.jpg",
     "static/media/portfolio4.jpg": "/portfolio/static/media/portfolio4.33512810c4e24da76c89.jpg",
@@ -15,7 +15,7 @@
     "static/media/portfolio3.jpg": "/portfolio/static/media/portfolio3.e051c429fe5bbafe7c65.jpg",
     "static/media/BS_Badge.png": "/portfolio/static/media/BS_Badge.20b9bced2f068835eb4e.png",
     "static/media/sql_Badge.png": "/portfolio/static/media/sql_Badge.dd68892d1cb51354b320.png",
-    "static/media/portfolio5.jpg": "/portfolio/static/media/portfolio5.d6ea407d0dd9d2d427e6.jpg",
+    "static/media/portfolio5.jpg": "/portfolio/static/media/portfolio5.9025b6e1e2c38c2103d1.jpg",
     "static/media/portfolio6.jpg": "/portfolio/static/media/portfolio6.d6ea407d0dd9d2d427e6.jpg",
     "static/media/MVC_Badge.jpg": "/portfolio/static/media/MVC_Badge.b8817f1628d32e78c594.jpg",
     "static/media/asp_Badge.png": "/portfolio/static/media/asp_Badge.c8965c5a55d5096d822e.png",
@@ -23,10 +23,10 @@
     "static/media/BjornSoderin.jpg": "/portfolio/static/media/BjornSoderin.348f4a616e3882065661.jpg",
     "index.html": "/portfolio/index.html",
     "main.7bad5d61.css.map": "/portfolio/static/css/main.7bad5d61.css.map",
-    "main.cdaef187.js.map": "/portfolio/static/js/main.cdaef187.js.map"
+    "main.c88f4a42.js.map": "/portfolio/static/js/main.c88f4a42.js.map"
   },
   "entrypoints": [
     "static/css/main.7bad5d61.css",
-    "static/js/main.cdaef187.js"
+    "static/js/main.c88f4a42.js"
   ]
 }
